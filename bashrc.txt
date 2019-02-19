@@ -1,0 +1,4 @@
+alias ls='ls -aF'
+
+
+. /Users/konosuke-a/torch/install/bin/torch-activate
