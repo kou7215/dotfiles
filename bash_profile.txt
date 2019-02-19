@@ -1,0 +1,35 @@
+alias ls='ls -aFG'
+export LSCOLORS=gxfxcxdxbxegedabagacad
+PS1="[\u \w]\$"
+#export PYENV_ROOT=$HOME/.pyenv
+#export PATH=$PYENV_ROOT/bin:$PATH
+#eval "$(pyenv init -)"
+#eval "$(pyenv virtualenv-init -)"
+#export TF_CPP_MIN_LOG_LEVEL=2
+#alias brew="env PATH=${PATH/\/Users\/konosuke-a\/\.pyenv\/shims:/} brew"
+#alias vi="/usr/local/bin/vim"
+#alias cvcpp="clang++ `pkg-config --libs opencv` -std=c++14" 
+#export PATH="$PYENV_ROOT/versions/anaconda3-5.0.0/bin:$PATH"
+alias ls='ls -aFG'
+alias csbdeep3='ssh konosuke-a@csbdeep3'
+alias csbdeep5='ssh konosuke-a@163.221.198.226'
+export LSCOLORS=gxfxcxdxbxegedabagacad
+PS1="[\u \w]\$"
+export PYENV_ROOT=$HOME/.pyenv
+export PATH=$PYENV_ROOT/bin:$PATH
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+export TF_CPP_MIN_LOG_LEVEL=2
+alias brew="env PATH=${PATH/\/Users\/konosuke-a\/\.pyenv\/shims:/} brew"
+alias vi="/usr/local/bin/vi"
+alias vim="/usr/local/bin/vim"
+alias cvcpp="clang++ `pkg-config --libs opencv` -std=c++14"
+alias clang++="clang++ -std=c++14"
+#export PATH="$PYENV_ROOT/versions/anaconda3-5.0.0/bin:$PATH"
+
+# homebrewで入れたvimを読み込むため
+# これを入れるとpyenvが使えないっぽい。
+#export PATH=/usr/local/bin:$PATH
+#if [ -f /usr/local/share/bash-completion/bash_completion ]; then
+#    . /usr/local/share/bash-completion/bash_completion
+#fi
